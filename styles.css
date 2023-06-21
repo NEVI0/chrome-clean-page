@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #a5f3b2;
+
+    --text-color: #fff;
+    --text-light-color: #8c8c91;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+
+    background-image: url(./assets/images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+}
+
+.overlay {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    padding: 4rem;
+    backdrop-filter: blur(10px);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header__left {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.header .header__title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav .nav__links {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    list-style: none;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link .link__anchor {
+    line-height: 0;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.time .time__text {
+    font-size: 8rem;
+    font-weight: 900;
+    letter-spacing: .5rem;
+}
+
+.date .date__text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-light-color);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer__text {
+    font-size: .75rem;
+    color: var(--text-light-color);
+}

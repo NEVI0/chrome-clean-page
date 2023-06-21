@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./assets/icons/leaf.png" type="image/x-icon">
+
+    <title>New Tab</title>
+</head>
+<body onload="startTime()">
+    <div class="overlay">
+        <header class="header">
+            <div class="header__left">
+                <img
+                    src="./assets/icons/leaf.png"
+                    alt="Clean Chrome Logo"
+                    class="header__logo"
+                >
+    
+                <h1 class="header__title">
+                    Clean Chrome
+                </h1>
+            </div>
+    
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li class="link">
+                        <a href="https://drive.google.com/drive/u/0/" class="link__anchor" target="_blank">
+                            <img src="./assets/icons/drive.png" alt="Google Drive" class="link__icon">
+                        </a>
+                    </li>
+    
+                    <li class="link">
+                        <a href="https://mail.google.com/mail/u/0/" class="link__anchor" target="_blank">
+                            <img src="./assets/icons/gmail.png" alt="Google Gmail" class="link__icon">
+                        </a>
+                    </li>
+    
+                    <li class="link">
+                        <a href="https://photos.google.com/" class="link__anchor" target="_blank">
+                            <img src="./assets/icons/photos.png" alt="Google Photos" class="link__icon">
+                        </a>
+                    </li>
+    
+                    <li class="link">
+                        <a href="https://calendar.google.com/calendar/u/0/r" class="link__anchor" target="_blank">
+                            <img src="./assets/icons/calendar.png" alt="Google Calendar" class="link__icon">
+                        </a>
+                    </li>
+    
+                    <li class="link">
+                        <a href="https://www.google.com.br/maps/@-28.5146048,-49.0376521,11.71z" class="link__anchor" target="_blank">
+                            <img src="./assets/icons/maps.png" alt="Google Maps" class="link__icon">
+                        </a>
+                    </li>
+    
+                    <li class="link">
+                        <a href="https://translate.google.com.br/?hl=pt-BR&sl=pt&tl=en&op=translate" class="link__anchor" target="_blank">
+                            <img src="./assets/icons/translate.png" alt="Google Translate" class="link__icon">
+                        </a>
+                    </li>
+    
+                    <li class="link">
+                        <a href="https://console.firebase.google.com/u/1/?hl=pt-br&pli=1" class="link__anchor" target="_blank">
+                            <img src="./assets/icons/firebase.png" alt="Google Firebase" class="link__icon">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main class="main">
+            <section class="time">
+                <span class="time__text" id="timeHour"></span>
+                <span class="time__text">:</span>
+                <span class="time__text" id="timeMinutes"></span>
+            </section>
+    
+            <section class="date">
+                <p class="date__text" id="date"></p>
+            </section>
+        </main>
+    
+        <footer class="footer">
+            <small class="footer__text">
+                &copy; Created by Névio Costa Magagnin all rights reserved
+            </small>
+        </footer>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
