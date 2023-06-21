@@ -1,4 +1,4 @@
-<img src="/assets/images" alt="Clean Chrome page preview">
+<img src="/assets/images/preview.png" alt="Clean Chrome page preview">
 
 ## :leaves: Clean Chrome Page
 
