@@ -13,6 +13,7 @@
 
 body {
     color: var(--text-color);
+    background-color: #0d0d0e;
     font-family: 'Inter', sans-serif;
 
     background-image: url(./assets/images/wallpaper.jpg);
